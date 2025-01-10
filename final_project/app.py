@@ -12,7 +12,7 @@ absl.logging.set_verbosity(absl.logging.ERROR)
 warnings.filterwarnings("ignore")
 
 # Load the trained model
-model = load_model('food_classifier_model.h5')
+model = load_model('final_project/food_classifier_model.h5')
 
 # Label dictionary
 label_dict = {
